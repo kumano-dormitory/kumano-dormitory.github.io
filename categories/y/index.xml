@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Y on Kumano Dormitory IT Section</title>
+    <link>https://kumano-dormitory.github.io/categories/y/</link>
+    <description>Recent content in Y on Kumano Dormitory IT Section</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Fri, 24 Feb 2017 00:54:24 +0900</lastBuildDate>
+    <atom:link href="https://kumano-dormitory.github.io/categories/y/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>https://kumano-dormitory.github.io/post/hack-on-air/</link>
+      <pubDate>Fri, 24 Feb 2017 00:54:24 +0900</pubDate>
+      
+      <guid>https://kumano-dormitory.github.io/post/hack-on-air/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kumano-dormitory.github.io/post/hackathon-kaumo/</link>
+      <pubDate>Fri, 24 Feb 2017 00:54:17 +0900</pubDate>
+      
+      <guid>https://kumano-dormitory.github.io/post/hackathon-kaumo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

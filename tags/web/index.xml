@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on Kumano Dormitory IT Section</title>
+    <link>https://kumano-dormitory.github.io/tags/web/</link>
+    <description>Recent content in Web on Kumano Dormitory IT Section</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Fri, 24 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kumano-dormitory.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>資料システム</title>
+      <link>https://kumano-dormitory.github.io/post/kumanodocs/</link>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://kumano-dormitory.github.io/post/kumanodocs/</guid>
+      <description>&lt;p&gt;ソースコード: &lt;a href=&#34;https://github.com/kumano-dormitory/kumanodocs&#34;&gt;https://github.com/kumano-dormitory/kumanodocs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;熊野寮の寮生用ページ。PythonのWebフレームワークDjangoで作成した。&lt;/p&gt;
+
+&lt;p&gt;寮には、月に二回開かれるホームルームのようなものがある（ブロック会議）。
+このWebアプリは、そこで読む資料を印刷するためのものである。
+大まかには、記事を投稿・閲覧する機能と、それらの記事を一つのPDFファイルにまとめて出力する機能の二つからなっている。&lt;/p&gt;
+
+&lt;p&gt;突貫で作成したということもあり、汚く長すぎるコードが散見される。
+絶賛リファクタリング中である。テストもないしね。&lt;/p&gt;
+
+&lt;p&gt;技量の低い人が書いたものがそのまま使われているだけなので、Railsあたりでガバッと書き直しちゃったほうが速いんじゃないかという気がする。&lt;/p&gt;
+
+&lt;p&gt;熊野寮はRuby on Railsを使える人材を募集しています。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
