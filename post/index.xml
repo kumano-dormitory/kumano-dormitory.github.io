@@ -6,25 +6,63 @@
     <description>Recent content in Posts on Kumano Dormitory IT Section</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Fri, 24 Feb 2017 00:54:24 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 24 Feb 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kumano-dormitory.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title></title>
-      <link>https://kumano-dormitory.github.io/post/hack-on-air/</link>
-      <pubDate>Fri, 24 Feb 2017 00:54:24 +0900</pubDate>
+      <title>熊野寮祭 告知ページ</title>
+      <link>https://kumano-dormitory.github.io/post/ryosai-hakyll/</link>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://kumano-dormitory.github.io/post/hack-on-air/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kumano-dormitory.github.io/post/hackathon-kaumo/</link>
-      <pubDate>Fri, 24 Feb 2017 00:54:17 +0900</pubDate>
-      
-      <guid>https://kumano-dormitory.github.io/post/hackathon-kaumo/</guid>
-      <description></description>
+      <guid>https://kumano-dormitory.github.io/post/ryosai-hakyll/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://kumano-dormitory.github.io/ryosai/&#34;&gt;熊野寮祭 告知ページ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2016年の年末に &lt;em&gt;スクショ&lt;/em&gt; がTwitterで出回ったので、見たことがある方もいると思います。&lt;/p&gt;
+
+&lt;p&gt;寮祭企画の&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;企画名&lt;/li&gt;
+&lt;li&gt;日程&lt;/li&gt;
+&lt;li&gt;場所&lt;/li&gt;
+&lt;li&gt;簡単な説明&lt;/li&gt;
+&lt;li&gt;企画者が提出した画像&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;を、日付ごとに一覧にしたものです。&lt;/p&gt;
+
+&lt;p&gt;2016年以前は、寮祭パンフレットのPDFをホームページで公開しているだけで、情報にアクセスしやすいとは言い難い状況でした。
+レスポンシブな告知ページを新たに設けた事によって、スマートフォンからも企画一覧を見ることができるようになり、多くの方の目に触れるようになりました。&lt;/p&gt;
+
+&lt;h2 id=&#34;解説&#34;&gt;解説&lt;/h2&gt;
+
+&lt;p&gt;このサイトは、&lt;a href=&#34;https://jaspervdj.be/hakyll/&#34;&gt;Hakyll&lt;/a&gt;を使って作成されました。
+ソースコードは&lt;a href=&#34;https://github.com/kumano-dormitory/ryosai-jekyll&#34;&gt;ryosai-jekyll&lt;/a&gt;にあります。&lt;/p&gt;
+
+&lt;h2 id=&#34;なんでhakyllなの&#34;&gt;なんでHakyllなの？&lt;/h2&gt;
+
+&lt;p&gt;他の静的サイトジェネレーターに比べて、Hakyllは柔軟にサイトの構造を決めることができます。
+また、データベースやCSVファイルなどから似たようなページを大量に生成するなどの用途にも使えます。
+こうした理由から、Hakyllを採用しました。&lt;/p&gt;
+
+&lt;p&gt;実際に、寮祭告知ページを生成する際には、&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;CSVファイルに書かれた企画一覧を、通常企画・常設企画・ゲリラ企画の三種類にグループ化&lt;/li&gt;
+&lt;li&gt;通常企画はさらに、開催日によってグループ化&lt;/li&gt;
+&lt;li&gt;それぞれのグループを一つのWebページにまとめる&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;という、&lt;a href=&#34;https://kumano-dormitory.github.io/ryosai/events.html&#34;&gt;それなりに複雑な構造のページ&lt;/a&gt;を、自動で生成しています。&lt;/p&gt;
+
+&lt;h2 id=&#34;結論&#34;&gt;結論&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Haskeller募集&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -33,20 +71,31 @@
       <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>https://kumano-dormitory.github.io/post/kumanodocs/</guid>
-      <description>&lt;p&gt;ソースコード: &lt;a href=&#34;https://github.com/kumano-dormitory/kumanodocs&#34;&gt;https://github.com/kumano-dormitory/kumanodocs&lt;/a&gt;&lt;/p&gt;
+      <description>
 
-&lt;p&gt;熊野寮の寮生用ページ。PythonのWebフレームワークDjangoで作成した。&lt;/p&gt;
+&lt;p&gt;寮生用のWebアプリです。&lt;/p&gt;
 
-&lt;p&gt;寮には、月に二回開かれるホームルームのようなものがある（ブロック会議）。
-このWebアプリは、そこで読む資料を印刷するためのものである。
-大まかには、記事を投稿・閲覧する機能と、それらの記事を一つのPDFファイルにまとめて出力する機能の二つからなっている。&lt;/p&gt;
+&lt;p&gt;寮には、月に二回開かれるホームルームのようなものがありまして、このWebアプリは、その会議で読む資料を印刷するためのものです。
+寮生以外は中身を見せられない事になってるので、そこはご了承ください。&lt;/p&gt;
 
-&lt;p&gt;突貫で作成したということもあり、汚く長すぎるコードが散見される。
-絶賛リファクタリング中である。テストもないしね。&lt;/p&gt;
+&lt;h2 id=&#34;解説&#34;&gt;解説&lt;/h2&gt;
 
-&lt;p&gt;技量の低い人が書いたものがそのまま使われているだけなので、Railsあたりでガバッと書き直しちゃったほうが速いんじゃないかという気がする。&lt;/p&gt;
+&lt;p&gt;ソースコードは&lt;a href=&#34;https://github.com/kumano-dormitory/kumanodocs&#34;&gt;kumanodocs&lt;/a&gt;にあります。PythonのWebフレームワークDjangoで作成しました。&lt;/p&gt;
 
-&lt;p&gt;熊野寮はRuby on Railsを使える人材を募集しています。&lt;/p&gt;
+&lt;p&gt;ちょっと読んだらわかると思うんですが、汚いコードです。テストもないし（↓）。
+&lt;script src=&#34;http://gist-it.appspot.com/github/kumano-dormitory/kumanodocs/blob/master/document_system/tests.py&#34;&gt;&lt;/script&gt;
+リファクタリングするのも大変です（というか怖くて手が出ない）。
+これにテストを付けてリファクタリングするより、 Railsとか使って一から新しいの作ったほうが早そうですね。&lt;/p&gt;
+
+&lt;p&gt;あと、これは実際にサイトを訪れてもらわないとわからないことなんですが、デザインが悪くて使いづらいです。
+Webデザイナーいないし、しょうがないね。&lt;/p&gt;
+
+&lt;h2 id=&#34;結論&#34;&gt;結論&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;熊野寮情報技術セクションは、Webアプリを書ける人材を募集しています。言語はなんでも構いません。&lt;/li&gt;
+&lt;li&gt;熊野寮情報技術セクションは、Webデザイナーを募集しています。gitとかも使えるとベターですね。&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
