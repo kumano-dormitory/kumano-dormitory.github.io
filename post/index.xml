@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Kumano Dormitory IT Section</title>
-    <link>https://kumano-dormitory.github.io/post/index.xml</link>
+    <link>https://kumano-dormitory.github.io/post/</link>
     <description>Recent content in Posts on Kumano Dormitory IT Section</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
@@ -82,8 +82,7 @@
 
 &lt;p&gt;ソースコードは&lt;a href=&#34;https://github.com/kumano-dormitory/kumanodocs&#34;&gt;kumanodocs&lt;/a&gt;にあります。PythonのWebフレームワークDjangoで作成しました。&lt;/p&gt;
 
-&lt;p&gt;ちょっと読んだらわかると思うんですが、汚いコードです。テストもないし（↓）。
-&lt;script src=&#34;http://gist-it.appspot.com/github/kumano-dormitory/kumanodocs/blob/master/document_system/tests.py&#34;&gt;&lt;/script&gt;
+&lt;p&gt;ちょっと読んだらわかると思うんですが、汚いコードです。テストもないし。
 リファクタリングするのも大変です（というか怖くて手が出ない）。
 これにテストを付けてリファクタリングするより、 Railsとか使って一から新しいの作ったほうが早そうですね。&lt;/p&gt;
 
