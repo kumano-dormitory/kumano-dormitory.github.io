@@ -6,8 +6,86 @@
     <description>Recent content on Kumano Dormitory IT Section</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Fri, 24 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Feb 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kumano-dormitory.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>寮と技術とハッカソン</title>
+      <link>https://kumano-dormitory.github.io/post/hackathon/</link>
+      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://kumano-dormitory.github.io/post/hackathon/</guid>
+      <description>
+
+&lt;h1 id=&#34;寮と技術とハッカソン&#34;&gt;寮と技術とハッカソン&lt;/h1&gt;
+
+&lt;p&gt;熊野寮情報部技術セクションは、趣味でハッカソンに参加する部員もいます。
+(説明しよう！ハッカソンとは、短期間で集まってチームを組んで、プログラミングを使ってオモロいサービスやソフトウェアを作ろうという大会である！HackとMarathonを掛け合わせた造語で世界中で行われているぞ！審査員に選ばれたチームは、賞金や豪華商品が貰えるのだ！)&lt;/p&gt;
+
+&lt;h2 id=&#34;カウモハッカソン&#34;&gt;カウモハッカソン&lt;/h2&gt;
+
+&lt;h3 id=&#34;概要&#34;&gt;概要&lt;/h3&gt;
+
+&lt;p&gt;ベンチャー企業カウモが開催するハッカソンで、東京で行われました。「ジャンキーメーカー」というテーマに沿って作れば使う技術は自由でした。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://techsalon.connpass.com/event/34325/&#34;&gt;https://techsalon.connpass.com/event/34325/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;参加のきっかけ&#34;&gt;参加のきっかけ&lt;/h3&gt;
+
+&lt;p&gt;部員の一人がハッカソンに参加したいと思って、勢いでメンバーを募ったら3人チームが出来たので参加しました。寮内で役立ちそうなものを作ってテーマにこじつけるつもりで参加しました。&lt;/p&gt;
+
+&lt;h3 id=&#34;開発&#34;&gt;開発&lt;/h3&gt;
+
+&lt;p&gt;開発期間は2日間で、その間は目黒のオフィスに参加者全員で集まって作業しました。
+チーム熊野寮は、Ruby on Railsという流行りの(？)フレームワークを使って開発を行いました。&lt;/p&gt;
+
+&lt;h3 id=&#34;プロダクト&#34;&gt;プロダクト&lt;/h3&gt;
+
+&lt;p&gt;寮内の事務当番のシフト組みにゲーム性を付加したWebアプリを作りました。それぞれがお互いの利益を最大化しようとすると、バランスが取れた最高のシフトが出来上がります。&lt;/p&gt;
+
+&lt;h3 id=&#34;受賞&#34;&gt;受賞&lt;/h3&gt;
+
+&lt;p&gt;優勝は高校生天才プログラマー集団に持っていかれましたが、VASILYのCEOである金本さんからVASILY賞を頂きました。
+自分の身近な人を便利にするために作ったことが高く評価されました。&lt;/p&gt;
+
+&lt;h2 id=&#34;hack-on-air&#34;&gt;Hack On Air&lt;/h2&gt;
+
+&lt;h3 id=&#34;概要-1&#34;&gt;概要&lt;/h3&gt;
+
+&lt;p&gt;毎日放送(MBS)が行うハッカソンで、技術の力でMBSの番組・イベントを面白くすることを目指します。
+エンジニア、デザイナー以外にも、放送局の社員や芸能人が参加し、IT、芸能、放送の3業界の力が融合することが大きな特徴です。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.mbs.jp/hackathon/&#34;&gt;http://www.mbs.jp/hackathon/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;参加のきっかけ-1&#34;&gt;参加のきっかけ&lt;/h3&gt;
+
+&lt;p&gt;部員の一人が社会人エンジニアに声をかけられて、もう一人の部員も誘って参加することにしました。&lt;/p&gt;
+
+&lt;h3 id=&#34;企画&#34;&gt;企画&lt;/h3&gt;
+
+&lt;p&gt;180人ほどが参加しますが、事前の選考があって130人ほどが予選に参加することになりました。予選では25チームが作りたいプロダクトに関するプレゼンを行い、そのうち上位8チームのみが開発に進めるという厳しい戦いでした。
+熊野寮の2人は、それぞれ別のチームで開発に駒を進めました。&lt;/p&gt;
+
+&lt;h3 id=&#34;開発-1&#34;&gt;開発&lt;/h3&gt;
+
+&lt;p&gt;開発期間は1週間で、最後の2日間はMBSのスタジオでたくさんのカメラに囲まれながら開発を行いました。&lt;/p&gt;
+
+&lt;h3 id=&#34;プロダクト-1&#34;&gt;プロダクト&lt;/h3&gt;
+
+&lt;p&gt;熊野寮の2人は、一人がVRで漫才のツッコミ役になれる作品(ツッコミの祭点)、もう一人がテレビを見ながらスマホから芸人におひねりを投げられるサービス(林家Pay)を作りました。&lt;/p&gt;
+
+&lt;h3 id=&#34;審査&#34;&gt;審査&lt;/h3&gt;
+
+&lt;p&gt;審査員は有名企業の役員や毎日放送の社長などで、厚切りジェイソンも審査員のうちの一人でした。&lt;/p&gt;
+
+&lt;h3 id=&#34;受賞-1&#34;&gt;受賞&lt;/h3&gt;
+
+&lt;p&gt;結果、ツッコミの祭点は最優秀賞を受賞、林家Payは優秀賞を受賞しました。
+大会の様子はYahoo! ニュースなどに掲載されたり、年々社会におけるハッカソンの存在感が増していることが増していることが分かります。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://headlines.yahoo.co.jp/hl?a=20170222-00000022-natalieo-ent&#34;&gt;http://headlines.yahoo.co.jp/hl?a=20170222-00000022-natalieo-ent&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>熊野寮祭 告知ページ</title>
