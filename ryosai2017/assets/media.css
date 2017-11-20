@@ -1,0 +1,25 @@
+@media screen and (max-width: 600px){
+    body {
+        width: 90%;
+    }
+    a {
+        margin: 5px auto 5px auto
+    }
+    img.logo {
+        width: 45%;
+        height: 45%;
+    }
+    img.event-image {
+        width: 100%;
+    }
+    li {
+        margin: 10px auto 5px auto
+    }
+    ul li ul {
+        padding-left: 0;
+        margin-left: 1em;
+    }
+    div#navigation {
+        display: none;
+    }
+}
