@@ -29,10 +29,9 @@ div#header #navigation {
 
 div#header #navigation a {
     color: black;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 15px;
     text-decoration: none;
-    margin-left: 12px;
+    margin-left: 10px;
     text-transform: uppercase;
 }
 
