@@ -189,7 +189,7 @@
       <hr />
       <dl>
           <dt style='font-weight: bold;'>場所</dt><dd>食堂</dd>
-          <dt style='font-weight: bold;'>時間帯</dt><dd>11月29日 13:00 〜 11月29日 18:00</dd>
+          <dt style='font-weight: bold;'>時間帯</dt><dd>11月29日 11:00 〜 11月29日 16:00</dd>
           <dt style='font-weight: bold;'>説明</dt><dd>Humusが普段行っていることを「畑しごと編」、「ガーデニング編」、「お料理編-フランス人留学生が教えるクレープづくり」に分けて体験してもらう。「お料理編」は、フランス人留学生のLucがクレープのつくり方を教える。クレープの材料には熊野寮で取れたビワでLuc自らが作ったビワジャムも使う。＊Humusは野外での畑作業、花の手入れがメインのサークルではあるが畑で取れた野菜や果物を利用して料理や外部からアドバイザーを招いて料理教室も行っている。名前の通り植物に関係するなら何でもOKのサークルである。</dd>
           
           
@@ -202,6 +202,49 @@
           const title = '植物サークル ”Humus”体験会（お料理編）'
           const anchorId = 'evt33-anchor'
           const eventId = 'evt33'
+          const baseTweetUrl = 'https://twitter.com/share'
+          const hashtag = '熊野寮祭2020'
+
+          const text = `熊野寮祭「${title}」`
+          const targetUrl = `https://${document.location.host}/ryosai2020/events/${eventId}.html`
+          const tweetUrl = `${baseTweetUrl}?url=${encodeURIComponent(targetUrl)}&text=${encodeURIComponent(text)}&lang=ja&related=kuma_d_fes&hashtags=${encodeURIComponent(hashtag)}`
+
+          const anchor = document.getElementById(anchorId);
+          anchor.href = tweetUrl
+        })()
+      </script>
+  </p>
+
+  <p style="margin: 0px auto 50px auto">
+      <h3 id='evt36' style='width: 100%; display: flex;'>
+        <div>
+          <a href='#evt36' style='text-decoration: none; color: black;'>
+            <i class="fa fa-paragraph" aria-hidden="true"></i>
+            ヒーリングアニメ上映会
+          </a>
+        </div>
+        <div style='margin-left: auto; margin-right: 1em;'>
+          <a id='evt36-anchor' target="_blank">
+            <i class="fa fa-twitter-square fa-lg" style='color: black;' aria-hidden="true"></i>
+          </a>
+        </div>
+      </h3>
+      <hr />
+      <dl>
+          <dt style='font-weight: bold;'>場所</dt><dd>食堂北部</dd>
+          <dt style='font-weight: bold;'>時間帯</dt><dd>11月29日 12:00 〜 11月29日 14:00</dd>
+          <dt style='font-weight: bold;'>説明</dt><dd>ヒーリングアニメ（プリキュアもしくはたまゆら）をみんなで視聴し、やさしい気持ちになる。</dd>
+          
+          
+      </dl>
+      
+        <img src="/ryosai2020/data/images/1129/evt036.jpg" class="event-image"/>
+      
+      <script>
+        (function(){
+          const title = 'ヒーリングアニメ上映会'
+          const anchorId = 'evt36-anchor'
+          const eventId = 'evt36'
           const baseTweetUrl = 'https://twitter.com/share'
           const hashtag = '熊野寮祭2020'
 
@@ -259,49 +302,6 @@
   </p>
 
   <p style="margin: 0px auto 50px auto">
-      <h3 id='evt36' style='width: 100%; display: flex;'>
-        <div>
-          <a href='#evt36' style='text-decoration: none; color: black;'>
-            <i class="fa fa-paragraph" aria-hidden="true"></i>
-            ヒーリングアニメ上映会
-          </a>
-        </div>
-        <div style='margin-left: auto; margin-right: 1em;'>
-          <a id='evt36-anchor' target="_blank">
-            <i class="fa fa-twitter-square fa-lg" style='color: black;' aria-hidden="true"></i>
-          </a>
-        </div>
-      </h3>
-      <hr />
-      <dl>
-          <dt style='font-weight: bold;'>場所</dt><dd>食堂北部</dd>
-          <dt style='font-weight: bold;'>時間帯</dt><dd>11月29日 14:00 〜 11月29日 16:00</dd>
-          <dt style='font-weight: bold;'>説明</dt><dd>ヒーリングアニメ（プリキュアもしくはたまゆら）をみんなで視聴し、やさしい気持ちになる。</dd>
-          
-          
-      </dl>
-      
-        <img src="/ryosai2020/data/images/1129/evt036.jpg" class="event-image"/>
-      
-      <script>
-        (function(){
-          const title = 'ヒーリングアニメ上映会'
-          const anchorId = 'evt36-anchor'
-          const eventId = 'evt36'
-          const baseTweetUrl = 'https://twitter.com/share'
-          const hashtag = '熊野寮祭2020'
-
-          const text = `熊野寮祭「${title}」`
-          const targetUrl = `https://${document.location.host}/ryosai2020/events/${eventId}.html`
-          const tweetUrl = `${baseTweetUrl}?url=${encodeURIComponent(targetUrl)}&text=${encodeURIComponent(text)}&lang=ja&related=kuma_d_fes&hashtags=${encodeURIComponent(hashtag)}`
-
-          const anchor = document.getElementById(anchorId);
-          anchor.href = tweetUrl
-        })()
-      </script>
-  </p>
-
-  <p style="margin: 0px auto 50px auto">
       <h3 id='evt37' style='width: 100%; display: flex;'>
         <div>
           <a href='#evt37' style='text-decoration: none; color: black;'>
@@ -318,7 +318,7 @@
       <hr />
       <dl>
           <dt style='font-weight: bold;'>場所</dt><dd>食堂北部</dd>
-          <dt style='font-weight: bold;'>時間帯</dt><dd>11月29日 16:00 〜 11月29日 18:00</dd>
+          <dt style='font-weight: bold;'>時間帯</dt><dd>11月29日 14:00 〜 11月29日 16:00</dd>
           <dt style='font-weight: bold;'>説明</dt><dd>BTSのライブ映像などを見る。</dd>
           
           
@@ -361,7 +361,7 @@
       <hr />
       <dl>
           <dt style='font-weight: bold;'>場所</dt><dd>京都駅大階段</dd>
-          <dt style='font-weight: bold;'>時間帯</dt><dd>11月29日 18:00 〜 11月29日 21:00</dd>
+          <dt style='font-weight: bold;'>時間帯</dt><dd>11月29日 16:00 〜 11月29日 19:00</dd>
           <dt style='font-weight: bold;'>説明</dt><dd>熊野寮集合。京都駅までは徒歩でみんなで歩く。みんなで京都の階段で通りがかりの人とじゃんけんしてグリコする。</dd>
           
           
@@ -404,7 +404,7 @@
       <hr />
       <dl>
           <dt style='font-weight: bold;'>場所</dt><dd>京都駅 9と3/4番線</dd>
-          <dt style='font-weight: bold;'>時間帯</dt><dd>11月29日 18:00 〜 11月29日 21:00</dd>
+          <dt style='font-weight: bold;'>時間帯</dt><dd>11月29日 16:00 〜 11月29日 19:00</dd>
           <dt style='font-weight: bold;'>説明</dt><dd>魔法界に行けるまで9と3/4番線にショッピングカートでつっこみ続ける。（マグルにばれたらゲームオーバー）</dd>
           
           
@@ -447,7 +447,7 @@
       <hr />
       <dl>
           <dt style='font-weight: bold;'>場所</dt><dd>食堂北部</dd>
-          <dt style='font-weight: bold;'>時間帯</dt><dd>11月29日 21:00 〜 11月29日 26:00</dd>
+          <dt style='font-weight: bold;'>時間帯</dt><dd>11月29日 18:00 〜 11月29日 24:00</dd>
           <dt style='font-weight: bold;'>説明</dt><dd>？</dd>
           
           
@@ -490,7 +490,7 @@
       <hr />
       <dl>
           <dt style='font-weight: bold;'>場所</dt><dd>食堂北部</dd>
-          <dt style='font-weight: bold;'>時間帯</dt><dd>11月29日 21:00 〜 11月29日 26:00</dd>
+          <dt style='font-weight: bold;'>時間帯</dt><dd>11月29日 18:00 〜 11月29日 24:00</dd>
           <dt style='font-weight: bold;'>説明</dt><dd>局の始めに能力を渡す。それを使って麻雀を打つ。どこからでもチー、轟盲牌、ザ・ワールドなど</dd>
           
           
