@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>資料システム</title>
+    <link href="/assets/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla-framework-version-2.18.0.min.css" />
+    <link href="/assets/application.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+    <script src="/assets/viewport.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <header id="navigation" class="p-navigation">
+      <div class="p-navigation__row">
+        <div class="p-navigation__banner">
+          <div class="p-navigation__logo">
+            <a class="p-navigation__item" href="/">
+              <img src="/assets/logo.png" alt="" class="p-navigation__image">
+            </a>
+          </div>
+          <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
+          <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Close menu</a>
+        </div>
+        <nav class="p-navigation__nav u-image-position" role="menubar">
+          <form class="p-search-box" action="#">
+            <input type="search" class="p-search-box__input" name="search_article[keywords]" placeholder="議案検索" required="">
+            <button type="reset" class="p-search-box__reset" alt="reset"><i class="p-icon--close"></i></button>
+            <button type="submit" class="p-search-box__button" alt="search"><i class="p-icon--search"></i></button>
+          </form>
+          <span class="u-off-screen">
+            <a href="#main-content">Jump to main content</a>
+          </span>
+          <ul class="p-navigation__items" role="menu">
+            <li class="p-navigation__item " role="menuitem"><a class="p-navigation__link" href="#">新着議案</a></li>
+            <li class="p-navigation__item is-selected" role="menuitem"><a class="p-navigation__link" href="#">熊野寮祭</a></li>
+            <li class="p-navigation__item " role="menuitem"><a class="p-navigation__link" href="#">議案投稿</a></li>
+            <li class="p-navigation__item " role="menuitem"><a class="p-navigation__link" href="#">資料置き場</a></li>
+          </ul>
+          <ul class="p-navigation__items u-image-position--right" role="menu">
+            <li class="p-navigation__item " role="menuitem">
+              <a class="p-navigation__link u-hide--small" href="#"><i class="p-icon--user icon-settings"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="u-no-margin--top">
+      
+
+      <div class="p-strip">
+  <div class="row row-wide">
+    <div class="u-hide--small">
+      <h1 class="full-width">
+        2020年12月04日のブロック会議
+        
+      </h1>
+    </div>
+    <div class="u-hide--large u-hide--medium u-show--small">
+      <h2 class="u-no-margin--bottom">2020年12月04日のブロック会議</h2>
+      
+      <span class="p-contextual-menu--left" style="width:100%;">
+          <a href="#" class="p-button--neutral p-contextual-menu__toggle" aria-controls="#menu" aria-expanded="false" aria-haspopup="true">議案の一覧を表示</a>
+          <span class="p-contextual-menu__dropdown" id="menu" aria-hidden="true" aria-label="submenu" style="max-width:32rem;">
+            <span class="p-contextual-menu__group">
+              <a href="#" class="p-contextual-menu__link" style="margin:3px;">(0) 前回の熊野寮祭から</a>
+              
+                <a href="#" class="p-contextual-menu__link" style="margin:3px;">
+                  (1) 資料システムや熊野寮祭のwebページ、熊野寮祭Androidアプリの話
+                </a>
+              
+                <a href="#" class="p-contextual-menu__link" style="margin:3px;">
+                  (2) 鴨川イカダレース2020
+                </a>
+              
+                <a href="#" class="p-contextual-menu__link" style="margin:3px;">
+                  (3) ファイヤーストーム
+                </a>
+            </span>
+          </span>
+      </span>
+      <script src="/assets/contextual_menu.js" type="text/javascript"></script>
+    </div>
+  </div>
+
+  
+  <div class="row row-wide">
+    <div class="col-9">
+      
+
+      
+        <h3 style="max-width: 100%;margin-bottom:0;">(1) 資料システムや熊野寮祭のwebページ、熊野寮祭Androidアプリの話 【周知】</h3>
+        
+        
+        <dl>
+          <dt>文責者</dt>
+          <dd>bo40</dd>
+          <dt>本文</dt>
+          
+          <div class="markdown">
+            <h1>みなさん寮祭をたのしんでいますか？</h1>
+
+<p>こんにちは、<strong>bo40</strong> です。<br />
+この記事は、<a href="https:&#x2F;&#x2F;adventar.org&#x2F;calendars&#x2F;4930">Kumano dorm. Advent Calendar 2020</a>の4日目の記事です</p>
+
+<p>記事を書く前から「資料システムや熊野寮祭のwebページ、熊野寮祭Androidアプリの話など」と題名を決めてしまったので、その話をします。</p>
+
+<h2>熊野寮祭2020のWebページ</h2>
+<p>熊野寮祭2020の特設ページは<a href="https:&#x2F;&#x2F;kumano-dormitory.github.io&#x2F;ryosai2020&#x2F;">こちら</a>です</p>
+
+<p>熊野寮祭の特設ページは2016年から用意されるようになり、今年で5年目になります。<br />
+熊野寮祭の企画をCSV形式のデータとして管理していて、そのデータから自動でWebサイトが生成するプログラムを毎年書いています。<br />
+データもプログラムも公開されていて、リンクは以下</p>
+<ul>
+  <li><a href="https:&#x2F;&#x2F;github.com&#x2F;kumano-dormitory&#x2F;Kumanofes2020data">熊野寮祭の企画のCSVデータ</a></li>
+  <li><a href="https:&#x2F;&#x2F;github.com&#x2F;kumano-dormitory&#x2F;kumanofes2020_site_generator">寮祭特設ページ自動生成プログラム</a></li>
+</ul>
+
+<p>データから自動で特設サイトを生成するプログラムは、先代の資料システムの開発者が作ってくれたライブラリをそのまま使っているので、コード自体はとても単純です。レイアウトなどを決めるファイルがたくさんあって、それらを組み合わせて自動生成している感じです。</p>
+
+<p>寮祭特設サイトを作るうえで、一番大変なのはCSV形式のデータを用意するところです。このデータを手入力で用意しているときは虚無を感じます。（企画の開始・終了時間のデータを紙パンフのタイムテーブルのページとにらめっこして入力してます…）<br />
+誰か来年からやってくれないかな？</p>
+
+<h2>熊野寮祭Androidアプリ</h2>
+<p>熊野寮祭2020のAndroidアプリは<a href="https:&#x2F;&#x2F;play.google.com&#x2F;store&#x2F;apps&#x2F;details?id=com.kumano_ryo.bo40.kumanofes2020&amp;hl=ja">こちら</a></p>
+
+<p>熊野寮祭Androidアプリは2017年から作っていて、今年で4年目です。<br />
+毎年、1回ぐらいはAndroidアプリを書こうという気分になって、新しい言語であったり、新しい技術を使って書いてみています。<br />
+今年のアプリは実は去年のアプリを改良したもので、手抜き感が否めないのですが、思ったより良い出来ではないかと思っています。なにか改善点があれば教えてもらえるとありがたいです。</p>
+
+<p>どんな技術をつかっているか</p>
+<ul>
+  <li>言語はKotlin</li>
+  <li>普通にAndroidStudioで作っています</li>
+</ul>
+
+<p>開発において大変だった所</p>
+<ul>
+  <li>タイムテーブルのレイアウトファイルを書くのが大変（10日分）</li>
+  <li>寮祭企画の画像に一部問題があって、Google Playストアにリジェクトされ、その対応</li>
+</ul>
+
+<p>※ このアプリはソースコードを公開していません。</p>
+
+<h2>資料システム</h2>
+<p>熊野寮生のみなさんは全員(？)利用しているはずのシステムです。<br />
+熊野寮の会議運営をサポートし、過去の寮内の議論などの文書データを保管・活用するシステムです。<br />
+実は、このシステムのソースコードは<a href="https:&#x2F;&#x2F;github.com&#x2F;kumano-dormitory&#x2F;kumanodocs-hanami">こちら</a>で公開されています。</p>
+
+<p>もともと、文責者の入寮時（5年前）から資料システムと呼ばれるシステムはありました。しかし先代の資料システムは、よくわからないバグがあったり、メンテナンス性が悪いとのことで、新しい資料システムを開発しようという機運がありました。<br />
+そこで、先代の資料システムの開発者と文責者が協力し、2年以上かけて現行の資料システムを開発しました。</p>
+
+<p>どんな技術を使っているか</p>
+<ul>
+  <li>言語はRuby</li>
+  <li>フレームワークは<a href="https:&#x2F;&#x2F;hanamirb.org&#x2F;">Hanami</a></li>
+  <li>CSSフレームワークは<a href="https:&#x2F;&#x2F;vanillaframework.io&#x2F;">Vanilla framework</a></li>
+  <li>バックエンドのデータベースはPostgreSQL</li>
+</ul>
+
+<p>開発において大変だった所</p>
+<ul>
+  <li>githubのレポジトリが880コミット以上になっていることから察することができるように、とにかくたくさんのファイルとコードを書くのが大変。（機能が多く、用意しなくてはならないページがとても多い）</li>
+  <li>ユーザインターフェースをこだわりだすとキリがなくなり、無限に時間が持ってかれた</li>
+  <li>とにかく一人で全てを開発したこと</li>
+</ul>
+
+<h3>過去の資料システムについての参考資料</h3>
+
+<p>●第1世代 資料システム（2011～2015年）<br />
+熊野寮では昔から議案を提起者が作成し、その議案をもとに会議（ブロック会議など）を行っていました。その議案はおそらくWordファイルなどで作成され、資料委員会の担当者が一つのファイルとしてまとめ、印刷を行っていたとのことです。<br />
+まず、第一世代資料システムの開発者は、Wordファイルの内容をコピペしたものを投稿できるサイトを作成しました。投稿された議案は自動でまとめられたそうですが、細部は資料委員が手動で編集していたようです。投稿された議案はデータベースに保存されるため、資料を保存するという業務が簡略化されたそうです。<br />
+現在の資料システムで閲覧できる最古の資料が2011年頃のもので、当時の92期に第1世代は導入されました。</p>
+
+<p>●第2世代 資料システム（2015～2019年）<br />
+第1世代では、太字や下線を引いたり、文章中に表を埋め込んだりといったWordで使えるような機能を自由に使うことができました。しかし、この自由度により、投稿された議案を統一された形式に整形にする必要が生まれ、資料委員会の担当者が１～２時間かけて印刷用の資料を作っていたそうです。<br />
+第2世代の資料システムの開発者はこの手間をなくすために、議案は全てテキストのみで、表は別個で投稿するシステムを開発しました。この第2世代では、投稿された議案はすべてまとめられ、資料委員が印刷するためのPDFが自動で生成されるようになりました。これにより資料委員が資料を修正する手間がなくなりました。<br />
+第2世代は2015年の100期に導入されました。</p>
+
+<p>●第3世代 資料システム（2019年～現在）<br />
+第2世代の資料システムは基本的な機能は十分でしたが、開発者がまだ未熟な（本人談）ときに作成されたシステムであり、保守性が悪いものでした。<br />
+第2世代は徐々にバグがひどい状態になり、今後を見据えて2017年に第3世代の開発に着手しました。<br />
+約2年かけ、ゆっくりと開発されたシステムが現在の第3世代資料システムです。<br />
+基本的な機能は第2世代を踏襲したうえで、より強固な設計、高い保守性を意識して開発されました。<br />
+第3世代で追加された主な機能としては、以下ようなものがあります。<br />
+・関連議案の設定<br />
+・議案の差分表示<br />
+・採決議案の採決結果の自動集計<br />
+・部会委員会の寮生向け資料置き場<br />
+・議案の詳細検索機能（題名や議案種別、本文中の単語などを詳細に指定）</p>
+
+          </div>
+          
+          
+        </dl>
+        <ul class="p-list">
+          <li class="p-list__item">議案の初版投稿日時: 2020年12月03日 22:14</li>
+          <li class="p-list__item">議案の最終更新日時: 2020年12月03日 23:11</li>
+        </ul>
+
+        
+          
+        
+
+        
+
+        
+        <div class="p-strip">
+          <div class="row">
+            <div class="col-12">
+              <h4>議事録</h4>
+              <dl>
+                  <dt>B4の議事録</dt>
+                  
+                  <dd class="u-no-margin--bottom"><pre class="u-no-margin--bottom">熊野寮祭を満喫しています。</pre></dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        
+      
+
+      <footer class="p-article-pagination" style="margin-bottom: 40px;">
+        
+        <a class="p-article-pagination__link--previous" href="#">
+          <span class="p-article-pagination__label">前の企画へ</span>
+          <span class="p-article-pagination__title">前回の熊野寮祭から</span>
+        </a>
+        
+        
+        <a class="p-article-pagination__link--next" href="#">
+          <span class="p-article-pagination__label">次の企画へ</span>
+          <span class="p-article-pagination__title">鴨川イカダレース2020</span>
+        </a>
+        
+      </footer>
+    </div>
+
+    <div class="col-3 u-hide--small">
+      <ul class="p-list u-no-margin--bottom">
+        <hr>
+        <li class="p-list__item">
+          <a href="#" class="p-link--soft" >
+            (0) 前回の熊野寮祭から
+          </a>
+        </li>
+        
+          <hr>
+          <li class="p-list__item">
+            
+            <a href="#" class="p-link--soft" style="font-weight:950;">
+            (1) 資料システムや熊野寮祭のwebページ、熊野寮祭Androidアプリの話
+            </a>
+            
+          </li>
+        
+          <hr>
+          <li class="p-list__item">
+            
+            <a href="#" class="p-link--soft">
+            (2) 鴨川イカダレース 【募集】
+            </a>
+            
+          </li>
+        
+          <hr>
+          <li class="p-list__item">
+            
+            <a href="#" class="p-link--soft">
+            (3) ファイヤーストーム 【周知】
+            </a>
+            
+          </li>
+      </ul>
+    </div>
+
+
+  </div>
+  </div>
+
+    </div>
+
+    <footer id="footer" class="p-strip--light is-shallow">
+      <a href="#" class="p-top__link p-button--neutral u-hide--small">ページの上部へ戻る ↑</a>
+      <div class="row">
+        <div class="col-8 u-hide--small">
+          <p class="full-width">
+            Copyright© 2019-2020 Kumano Dormitory IT Section <small>(Some rights reserved <a href="https://creativecommons.org/licenses/by-nd/4.0/" target="_blank">CC BY-ND 4.0</a>)</small>
+          </p>
+          
+          <nav>
+            <ul class="p-inline-list--middot">
+              <li class="p-inline-list__item"><a href="#" class="p-link--soft">このサイトについて</a></li>
+              <li class="p-inline-list__item"><a href="https://kumano-ryo.com" class="p-link--external" target="_blank">熊野寮ホームページ</a></li>
+              <li class="p-inline-list__item"><a href="https://www.kumano-ryo.com/internal/index.html" class="p-link--external" target="_blank">寮生向け内部ページ</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    
+  </body>
+</html>
